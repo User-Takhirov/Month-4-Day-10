@@ -1,0 +1,256 @@
+{
+  "new_products": [
+    {
+      "id": "1",
+      "title": "a title"
+    },
+    {
+      "id": "2",
+      "title": "another title"
+    },
+    {
+      "id": "3daa",
+      "title": "muhammad ali"
+    },
+    {
+      "id": "fadd",
+      "title": "JAVOHIR"
+    },
+    {
+      "id": "0db9",
+      "title": "lorem"
+    },
+    {
+      "id": "b6f9",
+      "title": "lorem"
+    },
+    {
+      "id": "0ee9",
+      "title": "fayruzbek"
+    },
+    {
+      "id": "8868",
+      "title": "adsasdasdas",
+      "description": "adsad"
+    },
+    {
+      "id": "d9ba",
+      "title": "wertyuil;'"
+    },
+    {
+      "id": "cb3d",
+      "title": "qwertyu"
+    },
+    {
+      "id": "88a3",
+      "title": "ASILBEK"
+    },
+    {
+      "id": "84d8",
+      "title": "USER"
+    },
+    {
+      "id": "ca5d",
+      "title": "qwertyu"
+    },
+    {
+      "id": "f5f6",
+      "title": "gafhsdjfaksdhjas"
+    },
+    {
+      "id": "12d0",
+      "title": "sdfghj"
+    },
+    {
+      "id": "5a1f",
+      "title": "dtafdjas"
+    },
+    {
+      "id": "f4cf",
+      "title": "\\adskjasd"
+    },
+    {
+      "id": "ccff",
+      "title": "asdasbkf"
+    },
+    {
+      "id": "d395",
+      "title": "asd"
+    },
+    {
+      "id": "c5cc",
+      "title": "asdsbajd"
+    },
+    {
+      "id": "0a2b",
+      "title": "adskajsdbkq"
+    },
+    {
+      "id": "9ed9",
+      "title": "qweuqeweqewq"
+    },
+    {
+      "id": "465b",
+      "title": "ytwqwqe"
+    },
+    {
+      "id": "f12e",
+      "title": "qwerty"
+    }
+  ],
+  "discount_product": [
+    {
+      "id": "0ee9",
+      "title": "discount_product 1"
+    },
+    {
+      "id": "0e56",
+      "title": "discount_product 2"
+    }
+  ],
+  "recomended": [
+    {
+      "id": "0e56",
+      "title": "recomended 1"
+    },
+    {
+      "id": "ewifw",
+      "title": "recomended 2"
+    }
+  ],
+  "input": [
+    {
+      "id": "c95a",
+      "title": "qwlehqwrqw"
+    },
+    {
+      "id": "1e6e",
+      "title": "asdafdas"
+    },
+    {
+      "id": "455d",
+      "title": "jahsgdaslfda"
+    },
+    {
+      "id": "f9b6",
+      "title": "asfqw"
+    },
+    {
+      "id": "5f2d",
+      "title": "qwe"
+    },
+    {
+      "id": "8d71",
+      "title": "sdfsd"
+    },
+    {
+      "id": "6b31",
+      "title": "xcv"
+    },
+    {
+      "id": "7b7c",
+      "title": "adasdas"
+    },
+    {
+      "id": "28d7",
+      "title": "qwe"
+    },
+    {
+      "id": "0950",
+      "title": "pppppp"
+    },
+    {
+      "id": "da53",
+      "title": "p"
+    },
+    {
+      "id": "5d15",
+      "title": "pp"
+    },
+    {
+      "id": "d305",
+      "title": "dkjsabkfas"
+    },
+    {
+      "id": "fd6b",
+      "title": "adlskansld"
+    },
+    {
+      "id": "13b5",
+      "title": ".samfs.a"
+    },
+    {
+      "id": "7c01",
+      "title": "asfasf"
+    },
+    {
+      "id": "b5b0",
+      "title": "sdfsdfsd"
+    },
+    {
+      "id": "1d88",
+      "title": "sd,fsd,f"
+    },
+    {
+      "id": "2350",
+      "title": "sdf,msfd,"
+    },
+    {
+      "id": "b714",
+      "title": "sdfs v"
+    },
+    {
+      "id": "d762",
+      "title": "sdclksnvl"
+    },
+    {
+      "id": "a9c6",
+      "title": "tusldfnldsk"
+    },
+    {
+      "id": "8c3b",
+      "title": "asdlkafslkas"
+    },
+    {
+      "id": "8228",
+      "title": "qwyueuqrw"
+    },
+    {
+      "id": "036f",
+      "title": "asilbek"
+    },
+    {
+      "id": "f112",
+      "title": "qwertyuiopasdfgh"
+    },
+    {
+      "id": "7c09",
+      "title": ""
+    },
+    {
+      "id": "b08a",
+      "title": "qhjwdfqjhwd"
+    },
+    {
+      "id": "1ee3",
+      "title": "asdna.fsa/f"
+    }
+  ],
+  "category_names": [
+    {
+      "id": "1",
+      "name": "New Products",
+      "path": "/new_products"
+    },
+    {
+      "id": "2",
+      "name": "Discount Products",
+      "path": "/discount_product"
+    },
+    {
+      "id": "3",
+      "name": "Recomended",
+      "path": "/recomended"
+    }
+  ]
+}
