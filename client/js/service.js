@@ -46,18 +46,6 @@ export const Create = async (dataForm) => {
   }
 };
 
-// export const DeleteItem = async () => {
-//   try {
-//     const res = await fetch(`${url}/input`, {
-//       method: "DELETE",
-//     });
-//     const data = await res.json();
-//     return data;
-//   } catch (error) {
-//     return error.message;
-//   }
-// };
-
 export const deleteItem = async (deleteItemId) => {
   try {
     const res = await fetch(`${url}/input/${deleteItemId}`, {

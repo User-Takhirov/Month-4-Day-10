@@ -19,10 +19,12 @@ const renderTabContent = async (path) => {
 
 const renderTabHeader = async () => {
   const data = await getTabData();
-  tab.innerHTML = data.map(
-    (item) =>
-      `<button class="btns" data-path="${item.path}">${item.name}</button>`
-  );
+  tab.innerHTML = data
+    .map(
+      (item) =>
+        `<button class="btns" data-path="${item.path}">${item.name}</button>`
+    )
+    .join("");
   btns[0].style.color = "red";
   renderTabContent(data[0].path);
 };
@@ -45,35 +47,27 @@ const renderInput = async () => {
     .map(
       (item) => `
       <div class="input_text_block">
-      <h1>${item.title}</h1>
-      <button data-id="${item.id}">Delete</button>
-      <button data-id="${item.id}">Edit</button>
+      <h1 class="title_in">${item.title}</h1>
+      <button class="input_inner_del" data-id="${item.id}">Delete</button>
+      <button class="input_inner_btn a" data-edit="${item.id}">Edit</button>
       </div>`
     )
     .join("");
 };
 renderInput();
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const res = Create({ title: input.value });
+  await Create({ title: input.value });
   input.value = "";
 
   renderInput();
 });
 
-// inputBox.addEventListener("click", async (e) => {
-//   const del = e.target.dataset.id;
-//   const data = await DeleteItem(del);
-//  console.log(del);
-
-// });
-
-//
-
 inputBox.addEventListener("click", async (e) => {
   const deleteItemId = e.target.dataset.id;
   if (deleteItemId) {
-    deleteItem(deleteItemId);
+    await deleteItem(deleteItemId);
   }
+  renderInput();
 });
